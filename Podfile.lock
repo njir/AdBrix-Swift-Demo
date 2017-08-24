@@ -1,0 +1,12 @@
+PODS:
+  - IgaworksCore (2.3.6)
+
+DEPENDENCIES:
+  - IgaworksCore
+
+SPEC CHECKSUMS:
+  IgaworksCore: bdc8fbe532fbe2c6933ebcd97c650c9974a2928b
+
+PODFILE CHECKSUM: 83d0d614240e5fc03e9b1b56c206f81636d7335c
+
+COCOAPODS: 1.2.1

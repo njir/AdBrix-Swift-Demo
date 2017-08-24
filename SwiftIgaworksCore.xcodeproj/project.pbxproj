@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55B6ABA39F910FF992879E61 /* libPods-SwiftIgaworksCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 01758E1BD57C3AF90AF3E687 /* libPods-SwiftIgaworksCore.a */; };
+		EECAD2A41B9D59910085461E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECAD2A31B9D59910085461E /* AppDelegate.swift */; };
+		EECAD2A61B9D59910085461E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECAD2A51B9D59910085461E /* ViewController.swift */; };
+		EECAD2A91B9D59910085461E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EECAD2A71B9D59910085461E /* Main.storyboard */; };
+		EECAD2AB1B9D59910085461E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EECAD2AA1B9D59910085461E /* Images.xcassets */; };
+		EECAD2AE1B9D59910085461E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EECAD2AC1B9D59910085461E /* LaunchScreen.xib */; };
+		EECAD2BA1B9D59910085461E /* SwiftIgaworksCoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECAD2B91B9D59910085461E /* SwiftIgaworksCoreTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EECAD2B41B9D59910085461E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EECAD2961B9D59910085461E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EECAD29D1B9D59910085461E;
+			remoteInfo = SwiftIgaworksCore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01758E1BD57C3AF90AF3E687 /* libPods-SwiftIgaworksCore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SwiftIgaworksCore.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		06965E6B5F756527469029FE /* Pods-SwiftIgaworksCore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftIgaworksCore.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftIgaworksCore/Pods-SwiftIgaworksCore.release.xcconfig"; sourceTree = "<group>"; };
+		69DA6ABF9BF4E22B05873481 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB0DE461189D8AD0D7702860 /* Pods-SwiftIgaworksCore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftIgaworksCore.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftIgaworksCore/Pods-SwiftIgaworksCore.debug.xcconfig"; sourceTree = "<group>"; };
+		EECAD29E1B9D59910085461E /* SwiftIgaworksCore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftIgaworksCore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EECAD2A21B9D59910085461E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EECAD2A31B9D59910085461E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EECAD2A51B9D59910085461E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EECAD2A81B9D59910085461E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EECAD2AA1B9D59910085461E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EECAD2AD1B9D59910085461E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EECAD2B31B9D59910085461E /* SwiftIgaworksCoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftIgaworksCoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EECAD2B81B9D59910085461E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EECAD2B91B9D59910085461E /* SwiftIgaworksCoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftIgaworksCoreTests.swift; sourceTree = "<group>"; };
+		EECAD2C31B9D5A9C0085461E /* IgaworksCore-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IgaworksCore-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EECAD29B1B9D59910085461E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55B6ABA39F910FF992879E61 /* libPods-SwiftIgaworksCore.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EECAD2B01B9D59910085461E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23CE14E59C7FCEA1EFE8EF64 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BB0DE461189D8AD0D7702860 /* Pods-SwiftIgaworksCore.debug.xcconfig */,
+				06965E6B5F756527469029FE /* Pods-SwiftIgaworksCore.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CA544C0179045BCE8863BE73 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				69DA6ABF9BF4E22B05873481 /* Pods.framework */,
+				01758E1BD57C3AF90AF3E687 /* libPods-SwiftIgaworksCore.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EECAD2951B9D59910085461E = {
+			isa = PBXGroup;
+			children = (
+				EECAD2C31B9D5A9C0085461E /* IgaworksCore-Bridging-Header.h */,
+				EECAD2A01B9D59910085461E /* SwiftIgaworksCore */,
+				EECAD2B61B9D59910085461E /* SwiftIgaworksCoreTests */,
+				EECAD29F1B9D59910085461E /* Products */,
+				CA544C0179045BCE8863BE73 /* Frameworks */,
+				23CE14E59C7FCEA1EFE8EF64 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		EECAD29F1B9D59910085461E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EECAD29E1B9D59910085461E /* SwiftIgaworksCore.app */,
+				EECAD2B31B9D59910085461E /* SwiftIgaworksCoreTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EECAD2A01B9D59910085461E /* SwiftIgaworksCore */ = {
+			isa = PBXGroup;
+			children = (
+				EECAD2A31B9D59910085461E /* AppDelegate.swift */,
+				EECAD2A51B9D59910085461E /* ViewController.swift */,
+				EECAD2A71B9D59910085461E /* Main.storyboard */,
+				EECAD2AA1B9D59910085461E /* Images.xcassets */,
+				EECAD2AC1B9D59910085461E /* LaunchScreen.xib */,
+				EECAD2A11B9D59910085461E /* Supporting Files */,
+			);
+			path = SwiftIgaworksCore;
+			sourceTree = "<group>";
+		};
+		EECAD2A11B9D59910085461E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EECAD2A21B9D59910085461E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EECAD2B61B9D59910085461E /* SwiftIgaworksCoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				EECAD2B91B9D59910085461E /* SwiftIgaworksCoreTests.swift */,
+				EECAD2B71B9D59910085461E /* Supporting Files */,
+			);
+			path = SwiftIgaworksCoreTests;
+			sourceTree = "<group>";
+		};
+		EECAD2B71B9D59910085461E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EECAD2B81B9D59910085461E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EECAD29D1B9D59910085461E /* SwiftIgaworksCore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EECAD2BD1B9D59910085461E /* Build configuration list for PBXNativeTarget "SwiftIgaworksCore" */;
+			buildPhases = (
+				09F7E0C1A21591D3B086F309 /* [CP] Check Pods Manifest.lock */,
+				EECAD29A1B9D59910085461E /* Sources */,
+				EECAD29B1B9D59910085461E /* Frameworks */,
+				EECAD29C1B9D59910085461E /* Resources */,
+				36FE8F5000D2C28481563BD9 /* [CP] Embed Pods Frameworks */,
+				031E18E1A5BF52A683CF1483 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftIgaworksCore;
+			productName = SwiftIgaworksCore;
+			productReference = EECAD29E1B9D59910085461E /* SwiftIgaworksCore.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EECAD2B21B9D59910085461E /* SwiftIgaworksCoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EECAD2C01B9D59910085461E /* Build configuration list for PBXNativeTarget "SwiftIgaworksCoreTests" */;
+			buildPhases = (
+				EECAD2AF1B9D59910085461E /* Sources */,
+				EECAD2B01B9D59910085461E /* Frameworks */,
+				EECAD2B11B9D59910085461E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EECAD2B51B9D59910085461E /* PBXTargetDependency */,
+			);
+			name = SwiftIgaworksCoreTests;
+			productName = SwiftIgaworksCoreTests;
+			productReference = EECAD2B31B9D59910085461E /* SwiftIgaworksCoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EECAD2961B9D59910085461E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "wonje,song";
+				TargetAttributes = {
+					EECAD29D1B9D59910085461E = {
+						CreatedOnToolsVersion = 6.4;
+						LastSwiftMigration = 0830;
+					};
+					EECAD2B21B9D59910085461E = {
+						CreatedOnToolsVersion = 6.4;
+						LastSwiftMigration = 0830;
+						TestTargetID = EECAD29D1B9D59910085461E;
+					};
+				};
+			};
+			buildConfigurationList = EECAD2991B9D59910085461E /* Build configuration list for PBXProject "SwiftIgaworksCore" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EECAD2951B9D59910085461E;
+			productRefGroup = EECAD29F1B9D59910085461E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EECAD29D1B9D59910085461E /* SwiftIgaworksCore */,
+				EECAD2B21B9D59910085461E /* SwiftIgaworksCoreTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EECAD29C1B9D59910085461E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EECAD2A91B9D59910085461E /* Main.storyboard in Resources */,
+				EECAD2AE1B9D59910085461E /* LaunchScreen.xib in Resources */,
+				EECAD2AB1B9D59910085461E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EECAD2B11B9D59910085461E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		031E18E1A5BF52A683CF1483 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftIgaworksCore/Pods-SwiftIgaworksCore-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		09F7E0C1A21591D3B086F309 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		36FE8F5000D2C28481563BD9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftIgaworksCore/Pods-SwiftIgaworksCore-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EECAD29A1B9D59910085461E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EECAD2A61B9D59910085461E /* ViewController.swift in Sources */,
+				EECAD2A41B9D59910085461E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EECAD2AF1B9D59910085461E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EECAD2BA1B9D59910085461E /* SwiftIgaworksCoreTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EECAD2B51B9D59910085461E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EECAD29D1B9D59910085461E /* SwiftIgaworksCore */;
+			targetProxy = EECAD2B41B9D59910085461E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EECAD2A71B9D59910085461E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EECAD2A81B9D59910085461E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EECAD2AC1B9D59910085461E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EECAD2AD1B9D59910085461E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EECAD2BB1B9D59910085461E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EECAD2BC1B9D59910085461E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EECAD2BE1B9D59910085461E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB0DE461189D8AD0D7702860 /* Pods-SwiftIgaworksCore.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwiftIgaworksCore/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/IgaworksCore-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EECAD2BF1B9D59910085461E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06965E6B5F756527469029FE /* Pods-SwiftIgaworksCore.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwiftIgaworksCore/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/IgaworksCore-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		EECAD2C11B9D59910085461E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwiftIgaworksCoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftIgaworksCore.app/SwiftIgaworksCore";
+			};
+			name = Debug;
+		};
+		EECAD2C21B9D59910085461E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwiftIgaworksCoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftIgaworksCore.app/SwiftIgaworksCore";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EECAD2991B9D59910085461E /* Build configuration list for PBXProject "SwiftIgaworksCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EECAD2BB1B9D59910085461E /* Debug */,
+				EECAD2BC1B9D59910085461E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EECAD2BD1B9D59910085461E /* Build configuration list for PBXNativeTarget "SwiftIgaworksCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EECAD2BE1B9D59910085461E /* Debug */,
+				EECAD2BF1B9D59910085461E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EECAD2C01B9D59910085461E /* Build configuration list for PBXNativeTarget "SwiftIgaworksCoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EECAD2C11B9D59910085461E /* Debug */,
+				EECAD2C21B9D59910085461E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EECAD2961B9D59910085461E /* Project object */;
+}
