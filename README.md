@@ -1,6 +1,15 @@
 # AdBrix-Swift-Demo
 Demo project for integrating Igaworks [Adbrix](https://partners.igaworks.com/) to Swift
 
+## 🔧 Installation
+
+### CocoaPods
+AdBrix is available through [CocoaPods](http://cocoapods.org). To install
+it, simply add the following line to your Podfile:
+
+```ruby
+pod 'IgaworksCore'
+```
 
 ### How to integrate Adbrix to Swift project
 - Add bridging header to project as below
