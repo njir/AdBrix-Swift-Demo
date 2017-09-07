@@ -17,4 +17,18 @@ pod 'IgaworksCore'
 - Add header path to Objective-C Bridiging Header
   - Go [Build Settings] -> Objective-C Bridging Header
 ![image](https://user-images.githubusercontent.com/7614353/29651856-b152fd68-88dd-11e7-8333-bd4bc697b906.png)
+- Add below code to AppDelegate.swift
+```swift
+func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+    // Override point for customization after application launch.
+    
+    // init
+    IgaworksCore.igaworksCore(withAppKey: "57308193", andHashKey: "522040fdbe0d4291")
+    // set log level
+    IgaworksCore.setLogLevel(IgaworksCoreLogTrace)
+     
+    return true
+}
+```
+
 - Please refer Demo project for more information
